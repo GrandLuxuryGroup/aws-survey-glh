@@ -453,7 +453,8 @@ const firstSurvey = {
           "name": "NbBookings",
           "width": "10",
           "title": "Total number of bookings",
-          "isRequired": true,
+          "isRequired": false,
+          "visible": false,
           "validators": [
            {
             "type": "numeric",
@@ -512,7 +513,7 @@ const firstSurvey = {
           "type": "matrixdropdown",
           "name": "RoomsNightsSplit",
           "width": "300",
-          "title": "Split of total room nights booked by client country of origin (countries 1 to 5 in number of nights descending order)",
+          "title": "Geo Mix - Split of total room nights booked by client country of origin (countries 1 to 5 in number of nights descending order)",
           "validators": [
            {
             "type": "expression",
@@ -897,7 +898,7 @@ const firstSurvey = {
          {
           "type": "matrixdropdown",
           "name": "SplitByMonth",
-          "title": "Split of total room nights booked by stay month",
+          "title": "Booking pace by arrival month",
           "validators": [
            {
             "type": "expression",
@@ -1025,7 +1026,7 @@ const firstSurvey = {
         "type": "text",
         "name": "TotalNumberRoomAvailable",
         "width": "10",
-        "title": "Total number of rooms in your hotel",
+        "title": "Total number of keys in your hotel",
         "isRequired": true,
         "validators": [
          {
@@ -1041,7 +1042,7 @@ const firstSurvey = {
        {
         "type": "matrixdropdown",
         "name": "SplitTotalRoomAvailable",
-        "title": "Split of total room nights available for sale by month",
+        "title": "Monthly room availability",
         "validators": [
          {
           "type": "expression",
@@ -1189,14 +1190,14 @@ const firstSurvey = {
         "rows": [
          {
           "value": "NbOfOccupiedRooms",
-          "text": "Number of occupied rooms"
+          "text": "Room nights booked"
          },
          {
           "value": "TotalRoomNightAvailable",
-          "text": "Total \"room nights\" available for sale"
+          "text": "Room nights available"
          }
         ],
-        "totalText": "Occupancy Rate (%)"
+        "totalText": "Occupancy"
        },
        {
         "type": "panel",
