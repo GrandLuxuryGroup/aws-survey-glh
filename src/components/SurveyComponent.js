@@ -35,7 +35,7 @@ class SurveyComponent extends Component {
                   eq: this.props.userAttributes.sub
               },
               Week:{
-                eq : 'W1'
+                eq : 'W3'
               }
             }]
           }
@@ -45,7 +45,7 @@ class SurveyComponent extends Component {
        console.log(result.data);
        console.log(this.props.hotelLocation);
 
-        var Week = 'W1'
+        var Week = 'W3'
 
         //Page1 
         var HotelLocation = hotelLocation;
