@@ -9,6 +9,6 @@
             "Outputs.UserPoolId"
         ]
     },
-    "S3DeploymentBucket": "amplify-glh-survey-survey-113314-deployment",
+    "S3DeploymentBucket": "amplify-glh-survey-staging-115123-deployment",
     "S3DeploymentRootKey": "amplify-appsync-files/767b49339d680b9ee18566c549a2e085ce369548"
 }

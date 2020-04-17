@@ -2,17 +2,17 @@
 
 const awsmobile = {
     "aws_project_region": "eu-west-1",
-    "aws_cognito_identity_pool_id": "eu-west-1:b761f909-d833-4935-8cc9-b3c9765e1fdd",
+    "aws_cognito_identity_pool_id": "eu-west-1:e657b3ca-7852-43f2-8dfc-234fc277771d",
     "aws_cognito_region": "eu-west-1",
-    "aws_user_pools_id": "eu-west-1_58gn5sxdL",
-    "aws_user_pools_web_client_id": "2iscb4neslq5q419r3l1bga867",
+    "aws_user_pools_id": "eu-west-1_xcd8hTvdQ",
+    "aws_user_pools_web_client_id": "27hjlk7108ntv4n3isprgdck1d",
     "oauth": {},
-    "aws_appsync_graphqlEndpoint": "https://475h7g54ijdgzcegdrs52uzx4a.appsync-api.eu-west-1.amazonaws.com/graphql",
+    "aws_appsync_graphqlEndpoint": "https://tvfwfhhjcbe6xlqa4etpd45mze.appsync-api.eu-west-1.amazonaws.com/graphql",
     "aws_appsync_region": "eu-west-1",
     "aws_appsync_authenticationType": "AMAZON_COGNITO_USER_POOLS",
-    "aws_content_delivery_bucket": "glh-survey-20200408141245-hostingbucket-survey",
+    "aws_content_delivery_bucket": "glh-survey-20200408141245-hostingbucket-staging",
     "aws_content_delivery_bucket_region": "eu-west-1",
-    "aws_content_delivery_url": "https://d6ii009ekeqbx.cloudfront.net"
+    "aws_content_delivery_url": "http://glh-survey-20200408141245-hostingbucket-staging.s3-website-eu-west-1.amazonaws.com"
 };
 
 

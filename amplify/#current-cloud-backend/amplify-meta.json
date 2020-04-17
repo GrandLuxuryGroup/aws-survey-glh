@@ -1,14 +1,14 @@
 {
 	"providers": {
 		"awscloudformation": {
-			"AuthRoleName": "amplify-glh-survey-survey-113314-authRole",
-			"UnauthRoleArn": "arn:aws:iam::306002056262:role/amplify-glh-survey-survey-113314-unauthRole",
-			"AuthRoleArn": "arn:aws:iam::306002056262:role/amplify-glh-survey-survey-113314-authRole",
+			"AuthRoleName": "amplify-glh-survey-staging-115123-authRole",
+			"UnauthRoleArn": "arn:aws:iam::306002056262:role/amplify-glh-survey-staging-115123-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::306002056262:role/amplify-glh-survey-staging-115123-authRole",
 			"Region": "eu-west-1",
-			"DeploymentBucketName": "amplify-glh-survey-survey-113314-deployment",
-			"UnauthRoleName": "amplify-glh-survey-survey-113314-unauthRole",
-			"StackName": "amplify-glh-survey-survey-113314",
-			"StackId": "arn:aws:cloudformation:eu-west-1:306002056262:stack/amplify-glh-survey-survey-113314/a5e735e0-77e9-11ea-a1c3-02bb3de2f99e",
+			"DeploymentBucketName": "amplify-glh-survey-staging-115123-deployment",
+			"UnauthRoleName": "amplify-glh-survey-staging-115123-unauthRole",
+			"StackName": "amplify-glh-survey-staging-115123",
+			"StackId": "arn:aws:cloudformation:eu-west-1:306002056262:stack/amplify-glh-survey-staging-115123/0217aa20-8091-11ea-b4f6-06e621efe3ec",
 			"AmplifyAppId": "dlc5cu3h2bd1i"
 		}
 	},
@@ -18,17 +18,17 @@
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [],
 			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-glh-survey-survey-113314-deployment/amplify-cfn-templates/auth/glhsurvey3793b043-cloudformation-template.yml",
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-glh-survey-staging-115123-deployment/amplify-cfn-templates/auth/glhsurvey3793b043-cloudformation-template.yml",
 				"logicalId": "authglhsurvey3793b043"
 			},
-			"lastPushTimeStamp": "2020-04-15T14:23:27.301Z",
+			"lastPushTimeStamp": "2020-04-17T10:03:07.673Z",
 			"output": {
-				"AppClientSecret": "1tvciba4bh3vslo84jfpi8fsb97cuubvl3bg7ug3dq8uc0k4p82c",
-				"UserPoolId": "eu-west-1_58gn5sxdL",
-				"AppClientIDWeb": "2iscb4neslq5q419r3l1bga867",
-				"AppClientID": "7pu4fsssdhunrc9itlvtrp6eue",
-				"IdentityPoolId": "eu-west-1:b761f909-d833-4935-8cc9-b3c9765e1fdd",
-				"IdentityPoolName": "glhsurvey3793b043_identitypool_3793b043__survey",
+				"AppClientSecret": "1nggua83ec8nefo6pad1v52mub7v2iltqd6jeji8pidrn9tvd1kj",
+				"UserPoolId": "eu-west-1_xcd8hTvdQ",
+				"AppClientIDWeb": "27hjlk7108ntv4n3isprgdck1d",
+				"AppClientID": "20625pbu2rr4uln9euulkl0kia",
+				"IdentityPoolId": "eu-west-1:e657b3ca-7852-43f2-8dfc-234fc277771d",
+				"IdentityPoolName": "glhsurvey3793b043_identitypool_3793b043__staging",
 				"UserPoolName": "glhsurvey3793b043_userpool_3793b043"
 			},
 			"lastPushDirHash": "Ko/W2iLLEk014tDhQYfiQjJNkTQ="
@@ -48,15 +48,15 @@
 						}
 					}
 				},
-				"GraphQLAPIIdOutput": "6ivhuivp7jeifigprodgr7d4vm",
-				"GraphQLAPIEndpointOutput": "https://475h7g54ijdgzcegdrs52uzx4a.appsync-api.eu-west-1.amazonaws.com/graphql"
+				"GraphQLAPIIdOutput": "wfrpjuhoxregjjcpgyhl4wqqdy",
+				"GraphQLAPIEndpointOutput": "https://tvfwfhhjcbe6xlqa4etpd45mze.appsync-api.eu-west-1.amazonaws.com/graphql"
 			},
 			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-glh-survey-survey-113314-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-glh-survey-staging-115123-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"logicalId": "apiglhsurvey"
 			},
-			"lastPushTimeStamp": "2020-04-15T14:23:27.319Z",
-			"lastPushDirHash": "BNZEd64wAOc6sNBdy6FSDjhzVP8="
+			"lastPushTimeStamp": "2020-04-17T10:03:07.673Z",
+			"lastPushDirHash": "ouV44T9c3YKHEffcizUEIiBHgKc="
 		}
 	},
 	"hosting": {
@@ -64,21 +64,17 @@
 			"service": "S3AndCloudFront",
 			"providerPlugin": "awscloudformation",
 			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-glh-survey-survey-113314-deployment/amplify-cfn-templates/hosting/template.json",
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-glh-survey-staging-115123-deployment/amplify-cfn-templates/hosting/template.json",
 				"logicalId": "hostingS3AndCloudFront"
 			},
-			"lastPushTimeStamp": "2020-04-15T14:23:27.329Z",
+			"lastPushTimeStamp": "2020-04-17T10:03:07.673Z",
 			"output": {
-				"S3BucketSecureURL": "https://glh-survey-20200408141245-hostingbucket-survey.s3.amazonaws.com",
-				"WebsiteURL": "http://glh-survey-20200408141245-hostingbucket-survey.s3-website-eu-west-1.amazonaws.com",
+				"S3BucketSecureURL": "https://glh-survey-20200408141245-hostingbucket-staging.s3.amazonaws.com",
+				"WebsiteURL": "http://glh-survey-20200408141245-hostingbucket-staging.s3-website-eu-west-1.amazonaws.com",
 				"Region": "eu-west-1",
-				"HostingBucketName": "glh-survey-20200408141245-hostingbucket-survey",
-				"CloudFrontSecureURL": "https://d6ii009ekeqbx.cloudfront.net",
-				"CloudFrontOriginAccessIdentity": "E3VVWT6TMCA91",
-				"CloudFrontDistributionID": "E2HSQBO43X3QEH",
-				"CloudFrontDomainName": "d6ii009ekeqbx.cloudfront.net"
+				"HostingBucketName": "glh-survey-20200408141245-hostingbucket-staging"
 			},
-			"lastPushDirHash": "O4TmkhnU90dVHxCkyw0FpPY7Vj8="
+			"lastPushDirHash": "P8gz247Ldl2xUfoZ0FuOoXzmbwM="
 		}
 	}
 }

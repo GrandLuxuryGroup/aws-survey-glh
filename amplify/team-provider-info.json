@@ -16,5 +16,23 @@
                 "glhsurvey3793b043": {}
             }
         }
+    },
+    "staging": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-glh-survey-staging-115123-authRole",
+            "UnauthRoleArn": "arn:aws:iam::306002056262:role/amplify-glh-survey-staging-115123-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::306002056262:role/amplify-glh-survey-staging-115123-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-glh-survey-staging-115123-deployment",
+            "UnauthRoleName": "amplify-glh-survey-staging-115123-unauthRole",
+            "StackName": "amplify-glh-survey-staging-115123",
+            "StackId": "arn:aws:cloudformation:eu-west-1:306002056262:stack/amplify-glh-survey-staging-115123/0217aa20-8091-11ea-b4f6-06e621efe3ec",
+            "AmplifyAppId": "dlc5cu3h2bd1i"
+        },
+        "categories": {
+            "auth": {
+                "glhsurvey3793b043": {}
+            }
+        }
     }
 }
