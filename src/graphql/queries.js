@@ -53,6 +53,7 @@ export const getSurvey = /* GraphQL */ `
       OccupancyRateJuly
       OccupancyRateAugust
       OccupancyRateSeptember
+      Sub
       Result
       Week
     }
@@ -115,6 +116,7 @@ export const listSurveys = /* GraphQL */ `
         OccupancyRateJuly
         OccupancyRateAugust
         OccupancyRateSeptember
+        Sub
         Result
         Week
       }

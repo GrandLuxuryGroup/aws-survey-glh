@@ -178,7 +178,7 @@ class SurveyComponent extends Component {
 
         //
       var Result = result.data;
-        
+      var Sub = this.props.userAttributes.sub;
 
         try {
         
@@ -190,7 +190,7 @@ class SurveyComponent extends Component {
             NbRoomNightsBookedLastWeekAugust, NbRoomNightsBookedLastWeekSeptember, TotalNightsBookedLastWeek, NbRoomNightsBookedLastWeekJune, NbRoomNightsBookedLastWeekJuly,
             TotalNumberRoomAvailable, NbOccupiedRoomNightsAvril,NbOccupiedRoomNightsAugust, NbOccupiedRoomNightsJuly, NbOccupiedRoomNightsJune, NbOccupiedRoomNightsMay,
             NbOccupiedRoomNightsSeptember,NbTotalRoomNightsAugust, NbTotalRoomNightsAvril, NbTotalRoomNightsJuly, NbTotalRoomNightsJune, NbTotalRoomNightsMay, NbTotalRoomNightsSeptember, 
-          OccupancyRateApril, OccupancyRateAugust, OccupancyRateJuly, OccupancyRateJune, OccupancyRateMay, OccupancyRateSeptember, Week, Result, HotelLocation
+          OccupancyRateApril, OccupancyRateAugust, OccupancyRateJuly, OccupancyRateJune, OccupancyRateMay, OccupancyRateSeptember, Week, Result, HotelLocation, Sub
           } }));
 
           console.log(resultSurvey);

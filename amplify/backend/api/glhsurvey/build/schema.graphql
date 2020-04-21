@@ -48,6 +48,7 @@ type Survey {
   OccupancyRateJuly: Float
   OccupancyRateAugust: Float
   OccupancyRateSeptember: Float
+  Sub: String
   Result: String
   Week: String
 }
@@ -206,6 +207,7 @@ input ModelSurveyFilterInput {
   OccupancyRateJuly: ModelFloatInput
   OccupancyRateAugust: ModelFloatInput
   OccupancyRateSeptember: ModelFloatInput
+  Sub: ModelStringInput
   Result: ModelStringInput
   Week: ModelStringInput
   and: [ModelSurveyFilterInput]
@@ -274,6 +276,7 @@ input CreateSurveyInput {
   OccupancyRateJuly: Float
   OccupancyRateAugust: Float
   OccupancyRateSeptember: Float
+  Sub: String
   Result: String
   Week: String
 }
@@ -328,6 +331,7 @@ input UpdateSurveyInput {
   OccupancyRateJuly: Float
   OccupancyRateAugust: Float
   OccupancyRateSeptember: Float
+  Sub: String
   Result: String
   Week: String
 }
@@ -400,6 +404,7 @@ input ModelSurveyConditionInput {
   OccupancyRateJuly: ModelFloatInput
   OccupancyRateAugust: ModelFloatInput
   OccupancyRateSeptember: ModelFloatInput
+  Sub: ModelStringInput
   Result: ModelStringInput
   Week: ModelStringInput
   and: [ModelSurveyConditionInput]

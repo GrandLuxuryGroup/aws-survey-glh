@@ -52,7 +52,7 @@ type Survey @model {
   OccupancyRateJuly: Float 
   OccupancyRateAugust: Float 
   OccupancyRateSeptember: Float 
-
+  Sub: String
   Result: String
   Week: String
 }
