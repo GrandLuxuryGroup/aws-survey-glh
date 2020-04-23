@@ -9,6 +9,8 @@ class HomePage extends React.Component {
         <UserContext.Consumer>
         {({ userAttributes }) =>
             <React.Fragment>
+                <div style={{marginTop:'30px', marginLeft : '50px'}}/>
+                <div style={{marginLeft : '20px'}}>Please be very accurate when filling-in this survey, as the data cannot be modified once submitted. Figures will automatically feed our Covid-19 reporting tool.</div>
                 <div style={{marginTop:'30px'}}/>
                 <SurveyComponent userAttributes={userAttributes} hotelLocation={this.props.hotelLocation}/>
                 

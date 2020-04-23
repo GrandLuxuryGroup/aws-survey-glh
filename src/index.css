@@ -16,3 +16,17 @@ code {
   font-size : 1.6em;
   font-weight: 500;
 }
+
+div[name="WarningNbRoomNights"] {
+  background-color: orange;
+  font-weight: 500;
+  color: white;
+  height: 30px;
+}
+
+div[name="WarningTotalNumber"] {
+  background-color: orange;
+  font-weight: 500;
+  color: white;
+  height: 30px;
+}

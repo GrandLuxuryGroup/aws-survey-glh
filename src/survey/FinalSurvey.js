@@ -63,6 +63,7 @@ const finalSurvey = {
         "type": "panel",
         "name": "LastWeekActivity",
         "elements": [
+    
          {
           "type": "text",
           "name": "NbBookings",
@@ -85,7 +86,7 @@ const finalSurvey = {
           "type": "text",
           "name": "NbRoomNightsBooked",
           "width": "10",
-          "title": "Total number of room nights booked",
+          "title": "Total number of room nights booked over the past 7 days",
           "isRequired": true,
           "requiredErrorText": "This number cannot be negative",
           "validators": [
@@ -100,10 +101,22 @@ const finalSurvey = {
           "size": 10
          },
          {
+            "type": "panel",
+            "name": "panelWarningNbRoomNight",
+            "elements": [
+             {
+              "type": "html",
+              "name": "WarningNbRoomNights",
+              "visibleIf": "{NbRoomNightsBooked} = 0",
+              "html": "Are you sure that had NO room nights booked over the past 7 days ?"
+             }
+            ]
+           },
+         {
           "type": "text",
           "name": "NbRoomNightsCanceled",
           "width": "10",
-          "title": "Total number of room nights cancelled",
+          "title": "Total number of room nights cancelled over the past 7 days",
           "isRequired": true,
           "requiredErrorText": "This number cannot be negative",
           "validators": [
@@ -813,10 +826,17 @@ const finalSurvey = {
          }
         ],
         "totalText": "Occupancy"
-       },
-       {
+       },{
         "type": "panel",
-        "name": "panel4"
+        "name": "panelWarningTotalNumber",
+        "elements": [
+         {
+          "type": "html",
+          "name": "WarningTotalNumber",
+          "visibleIf": "{SplitTotalRoomAvailable.TotalRoomNightAvailable.M6} = 0 OR {SplitTotalRoomAvailable.TotalRoomNightAvailable.M5} = 0 OR {SplitTotalRoomAvailable.TotalRoomNightAvailable.M4} = 0 OR {SplitTotalRoomAvailable.TotalRoomNightAvailable.M3} = 0 OR {SplitTotalRoomAvailable.TotalRoomNightAvailable.M2} = 0 OR {SplitTotalRoomAvailable.TotalRoomNightAvailable.M1} = 0",
+          "html": "Rooms available for Sale can only be '0' for a month if the hotel is fully closed during the entire month"
+         }
+        ]
        }
       ],
       "title": "ON THE BOOK (stay month)(Page 3/3)"

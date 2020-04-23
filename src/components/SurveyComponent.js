@@ -238,6 +238,7 @@ class SurveyComponent extends Component {
     
 
     var surveyRender = !this.state.isCompleted ? (
+      
       <Survey.Survey
         json={json}
         //data={data}
