@@ -16,3 +16,9 @@ code {
   font-size : 1.6em;
   font-weight: 500;
 }
+
+div#sq_533 {
+  background-color: blanchedalmond;
+  color: red;
+  border-color: red;
+}

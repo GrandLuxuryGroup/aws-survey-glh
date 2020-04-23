@@ -816,7 +816,15 @@ const finalSurvey = {
        },
        {
         "type": "panel",
-        "name": "panel4"
+        "name": "panel2",
+        "elements": [
+         {
+          "type": "html",
+          "name": "question3",
+          "visibleIf": "{SplitTotalRoomAvailable.TotalRoomNightAvailable.M6} = 0",
+          "html": "HTML 1"
+         }
+        ]
        }
       ],
       "title": "ON THE BOOK (stay month)(Page 3/3)"

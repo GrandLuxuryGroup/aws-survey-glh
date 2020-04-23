@@ -71,7 +71,7 @@
 		"authglhsurvey3793b043": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/amplify-glh-survey-staging-115123-deployment/amplify-cfn-templates/auth/glhsurvey3793b043-cloudformation-template.yml",
+				"TemplateURL": "https://s3.amazonaws.com/amplify-glh-survey-survey-113314-deployment/amplify-cfn-templates/auth/glhsurvey3793b043-cloudformation-template.yml",
 				"Parameters": {
 					"identityPoolName": "glhsurvey3793b043_identitypool_3793b043",
 					"allowUnauthenticatedIdentities": false,
@@ -116,14 +116,14 @@
 					},
 					"permissions": "",
 					"dependsOn": "",
-					"env": "staging"
+					"env": "survey"
 				}
 			}
 		},
 		"apiglhsurvey": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/amplify-glh-survey-staging-115123-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"TemplateURL": "https://s3.amazonaws.com/amplify-glh-survey-survey-113314-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"Parameters": {
 					"CreateAPIKey": 0,
 					"AppSyncApiName": "glhsurvey",
@@ -135,19 +135,19 @@
 							"Outputs.UserPoolId"
 						]
 					},
-					"S3DeploymentBucket": "amplify-glh-survey-staging-115123-deployment",
+					"S3DeploymentBucket": "amplify-glh-survey-survey-113314-deployment",
 					"S3DeploymentRootKey": "amplify-appsync-files/4fc576a1ba93d9ff351b49a2ba871a9a4e2ca46b",
-					"env": "staging"
+					"env": "survey"
 				}
 			}
 		},
 		"hostingS3AndCloudFront": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/amplify-glh-survey-staging-115123-deployment/amplify-cfn-templates/hosting/template.json",
+				"TemplateURL": "https://s3.amazonaws.com/amplify-glh-survey-survey-113314-deployment/amplify-cfn-templates/hosting/template.json",
 				"Parameters": {
 					"bucketName": "glh-survey-20200408141245-hostingbucket",
-					"env": "staging"
+					"env": "survey"
 				}
 			}
 		},
