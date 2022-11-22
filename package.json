@@ -13,7 +13,7 @@
     "react-device-detect": "^1.11.14",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "survey-react": "^1.5.18",
     "ua-parser-js": "^0.7.21",
     "uuid": "^7.0.3"
